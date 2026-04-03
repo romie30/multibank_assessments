@@ -8,10 +8,8 @@ The utility provides two primary counting methods: one that counts all character
 ## Project Structure:
 The project is divided into two main packages:
 
-**Multibank_Assessment.Data**
-    * "Dataset.java": A configuration class containing the static "WORD" variable. This is where you input the string you want to analyze.
-**Multibank_Assessment.Main:**
-    * "CharacterCounter.java": The core logic class. It contains the counting algorithms and the "main" method to execute the program.
+**Multibank_Assessment.Data** "Dataset.java": A configuration class containing the static "WORD" variable. This is where you input the string you want to analyze.
+**Multibank_Assessment.Main:** "CharacterCounter.java": The core logic class. It contains the counting algorithms and the "main" method to execute the program.
 
 ## Features
 * **countCharacters(String input):** Calculates the frequency of every character in the input string. It ignores spaces but includes numbers and special characters.
