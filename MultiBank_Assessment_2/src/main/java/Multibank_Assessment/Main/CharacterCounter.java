@@ -45,7 +45,7 @@ public class CharacterCounter {
 
     static void main(String[] args) {
         System.out.println("Input: " + WORD);
-        System.out.println("Output: " + countCharacters(WORD));
-        System.out.println("Output: " + alphabetsOnlyCountCharacters(WORD));
+        System.out.println("Output: " + countCharacters(WORD)); //To Count the Occurence of all the Characters including Alphabets, Numbers and Special Characters
+        System.out.println("Output: " + alphabetsOnlyCountCharacters(WORD)); //To Count the Occurence of only Alphabets
     }
 }
