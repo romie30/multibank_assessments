@@ -28,6 +28,7 @@ The project is divided into two main packages:
    Navigate to Multibank_Assessment.Data.Dataset.java and update the "WORD" variable with the text you wish to analyze.
 
    Java Code to look for adding the Word:
+
    public class Dataset {
        public final static String WORD = "Hello World 123!"; //Add the Word we need to count occurence
    }
