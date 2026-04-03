@@ -24,11 +24,6 @@ The project is divided into two main packages:
 ### Steps to Run
 1. **Clone the repository** to your local machine.
 2. **Set up your JDK** Add your JDK to your Project
-3. **Set your input string:**
-   Navigate to Multibank_Assessment.Data.Dataset.java and update the "WORD" variable with the text you wish to analyze.
+3. **Set your input string:** Navigate to Multibank_Assessment.Data.Dataset.java and update the "WORD" variable with the text you wish to analyze.
 
-   Java Code to look for adding the Word:
-
-   public class Dataset {
-       public final static String WORD = "Hello World 123!"; //Add the Word we need to count occurence
-   }
+   
